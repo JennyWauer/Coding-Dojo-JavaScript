@@ -1,0 +1,18 @@
+var arr = [8,6,7,5,3,0,9]
+for(var i = 0; i < arr.length; i++){    
+    console.log(arr[i]);
+}
+
+// Prediction: 8,6,7,5,3,0,9 Correct
+
+var arr = [7,3,8,4,2,0,1];
+for(var i = 0; i < arr.length; i++){ 
+    if(arr[i] % 2 == 0){
+        console.log(arr[i]);
+    } 
+    else{
+        console.log("That is odd!");
+    }
+}
+
+// Prediction: That is odd!, That is odd! 8, 4, 2, 0, That is odd! Correct
